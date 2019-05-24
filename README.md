@@ -14,7 +14,6 @@ cd example && docker-compose up
 ```
 
 After that you can reach the airflow frontend via [http://localhost:8080](http://localhost:8080). You will find an
-example DAG that demonstrates how to print out the ```host```, the ```password``` and the ```extra``` fields of the
-```airflow_db``` connection (password will be empty by default).
+example DAG that demonstrates how to retrieve different connection information.
 
 **Attention**: Be especially careful when using passwords in templates.
