@@ -1,3 +1,5 @@
+[![PyPI version](https://badge.fury.io/py/airflow-connection-plugin.svg)](https://badge.fury.io/py/airflow-connection-plugin)
+
 # Templating for Airflow connections
 The connection plugin contains an airflow macro for templating connections in tasks. You can use it like this:
 
@@ -22,3 +24,7 @@ After that you can reach the airflow frontend via [http://localhost:8080](http:/
 example DAG that demonstrates how to retrieve different connection information.
 
 **Attention**: Be especially careful when using passwords in templates.
+
+## References
+- [Airflow](https://airflow.apache.org/)
+- [Airflow Jinja Templating](https://airflow.apache.org/concepts.html#id1)

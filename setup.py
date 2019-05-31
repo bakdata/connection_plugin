@@ -16,7 +16,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/bakdata/connection_plugin",
     author="bakdata",
-    author_email="info@bakdata.com",
+    author_email="opensource@bakdata.com",
     license="MIT",
     classifiers=[
             "License :: OSI Approved :: MIT License",
