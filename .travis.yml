@@ -6,7 +6,7 @@ cache:
   directories:
   - "$HOME/.cache/pip"
 install:
-- pipenv install
+- pipenv install --dev
 script:
 - pipenv run python -m unittest
 deploy:
@@ -18,6 +18,3 @@ deploy:
   distributions: sdist
   on:
     branch: feature/travis
-  before_deploy: "echo 'test'"
-  fu:
-    secure: kMqJsUAbQEdypC3eNhteJsBgK04JDOl1QDx81uz9aT2jt20AgYc1jnQgQVTqCtATrUq0XDBWESVG8YFC8/GFraQ8z9/WZG0+2YUN4LGopZbwUGJi+lBvG1cJJmZ3N8ZdZHeSWHtgeKXLyCTVV4XEdvQ1aasDHau8tgZ2XlyCsSvzqb3jiN1s7CGqcbkVB2acSl/ep+8yQ7NZfVVOumygOZWWc8MJzy5Jx1SMTdS2c0o6Tr3a8uhtMcF6eQHHiWN/8VNreLjKZahFUkD+7SHiCeBnIwtEr4XGdVGyE3CoB+jSjzA5nVut56Nx1pDLyECX1aJy8sfYy44oxhEfL2fAxw2NSR68aVHTdwc0QxZtvOM8s8M0j8uWjjzYXL7CWhttO5TonbPGRK5fJXlVBzJQQ031Q0VAxzOMLQnYQp6L/WkcWaHGSwWFytRDstp+UIiYrQh1CUYnlyk9DCHTLz/KS/nMCxkjO5X0jaFvHIhPxDDc80cbFy/DGCvdd4fOuYrtGAJV1NLkAZQ93dBStwcqg2/gOY0eM0qK8DX8cxBdPbPxai3+LagIT1W8BCrz7qgEAyZqLdihwWc/ciFncqtV+uWSf04OjqGywBNsWUluabRCXd6dIgJkrbz9yG6NtBEcA1KQWCWJlcb/XAwFdbzHn7AGqj1ikLG6sWTPN7sCUS8=
