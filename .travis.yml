@@ -1,6 +1,10 @@
 language: python
 python:
   - "3.6"
+dist: xenial
+cache:
+ directories:
+   - $HOME/.cache/pip
 install:
   - pipenv install
 script:
