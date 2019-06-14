@@ -10,7 +10,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name="airflow-connection-plugin",
-    version="1.0.0",
+    version="1.0.0rc1",
     description="Templating for Airflow connections",
     long_description=README,
     long_description_content_type="text/markdown",
